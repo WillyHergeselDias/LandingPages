@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Promoção</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Banner principal -->
+  <header class="banner">
+    <div class="overlay"></div>
+    <div class="banner-content">
+      <h1>Ganhe Seu Cupom Promocional!</h1>
+      <p>Descontos incríveis esperando por você. Inscreva-se agora!</p>
+    </div>
+  </header>
+  <!--Landing Page-->
+ <div class="landing">
+  <h1>Um ótimo restaurante de comidas mexicanas, com uma grande variação de pedidos disponíveis em nosso cardápio.</h1>
+  <img src="https://static.itdg.com.br/images/1200-630/763a97fad5636232d9ffe30955b44acf/347923-original.jpg" alt="taco">
+  <h2>Nosso restaurante possui inúmeras comidas para você poder degustar, variando dos clássicos tacos até os deliciosos burritos!</h2>
+  <a href="#name">Verificar agora!</a>
+ </div>
+  <!-- Formulário -->
+  <section class="form-section">
+    <h2>Solicite seu cupom</h2>
+    <form class="promo-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" name="cidade" id="cidade" placeholder="Sua cidade" required>
+
+      <label for="contato">Contado:</label>
+      <input type="tel" name="contato" id="contato" placeholder="Seu contato" required>
+
+      <label for="promo-code">Cupom:</label>
+      <input type="text" id="promo-code" name="promo-code" placeholder="Digite 'PROMO2024'" required>
+      <label for="cliente">Você é cliente da loja?</label>
+      <label><input type="radio" name="C1" id="cliente">Sim</label>
+      <label><input type="radio" name="C1" id="cliente">Não</label>
+
+      <button type="submit">Solicitar Cupom</button>
+    </form>
+  </section>
+</body>
+</html>
